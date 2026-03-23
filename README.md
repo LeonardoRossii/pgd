@@ -1,6 +1,6 @@
-# ProxOpt
+# PGD
 
-Projected Gradient Descent for 2D Constrained Optimization.
+Projected Gradient Descent (PGD) for 2D Constrained Optimization.
 
 **PhD Course Project** — *Proximal Methods in Numerical Optimization*  
 University of Trento, A.Y. 2025/2026  
@@ -39,11 +39,11 @@ jupyter notebook notebooks/proximal_optimization_assignment.ipynb
 ## Project Structure
 
 ```
-ProxOpt/
+pgd/
 ├── notebooks/
 │   └── proximal_optimization_assignment.ipynb
 ├── src/
-│   ├── functions.py      # Test functions and TestFunction dataclass
+│   ├── functions.py      # Test functions definition
 │   ├── constraints.py    # Constraint sets with projection operators
 │   ├── solver.py         # PGD solver with backtracking line search
 │   ├── plot.py           # Visualization utilities
