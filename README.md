@@ -18,7 +18,7 @@ Tested on the **Himmelblau** and **Three Hump Camel** functions subject to a **d
 
 ```bash
 conda env create -f environment.yaml
-conda activate proxopt
+conda activate envpgd
 ```
 
 ## Usage
